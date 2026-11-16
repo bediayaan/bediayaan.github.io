@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ayaan Bedi</title>
+    <meta name="description" content="Personal website for Ayaan Bedi.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <span class="title">Ayaan Bedi</span>
+
+        <!-- <input type="checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation"><span></span><span></span><span></span></label>
+
+        <nav class="nav-links">
+          <a class="active" href="index.html">Home</a>
+          <a href="assets/cv.pdf">CV</a>
+        </nav> -->
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="content">
+          <div>
+            <p class="kicker">Hello, I'm</p>
+            <h1>Ayaan Bedi</h1>
+            <div class="subtitle">
+            <!-- <p class=>I am a PhD Student at Aix Marseille University, Marseille, supervised by <a href="https://lehtinenkaroliina.wordpress.com/">Karoliina Lehtinen</a> and funded by <a href="https://schadoc.univ-amu.fr/en">SCCHADOC </a>. Before this I did my masters from at Chennai Mathematical Institute. My research interests lie broadly in automata theory, logic, and games. in perticular History determinisntic Quatative Automata</p>
+            <p>Email Me at: ayaan.bedi@lis-lab.fr</p> -->
+
+            <p>
+              I am a PhD student at Aix-Marseille Université, Marseille,
+              supervised by <a href="https://lehtinenkaroliina.wordpress.com/">Karoliina Lehtinen</a>
+              and funded by the <a href="https://schadoc.univ-amu.fr/en">SCHADOC</a> programme.
+              Previously, I completed my Master's in Computer Science at
+              Chennai Mathematical Institute, India.
+            </p>
+
+            <p>
+            My research interests lie broadly in theoretical computer science,
+            particularly automata theory, logic, and games. I am especially
+            interested in history-deterministic quantitative automata and
+            their connections to formal methods and verification.
+            </p>
+
+            <p>Email me at: ayaan.bedi@lis-lab.fr</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn ghost" href="assets/cv.pdf">View CV</a>
+            </div>
+          </div>
+          <img src="assets/photo.png" alt="A Photo of Me!" class="img-me" />
+        </div>
+      </section>
+
+      <h2 class="experience-header">Experience</h2>
+
+      <section class="experience">
+        <h2 class="internship-header">Publications</h2>
+        <div class="items">
+          <div class="experience-item">
+            <div class="experience-title">Explorability in Pushdown Automata</div>
+            <div class="experience-subtitle">FSTTCS2025</div>
+            <div class="experience-work">with <a href="https://lehtinenkaroliina.wordpress.com/">Karoliina Lehtinen</a></div>
+          </div>
+        </div>
+      </section>
+      <section class="experience">
+        <h2 class="internship-header">Internships</h2>
+        <div class="items">
+          <div class="experience-item">
+            <div class="experience-title"> Institute of Science and Technology, Austria </div>
+            <div class="experience-subtitle">May 2016 -  August 2026</div>
+            <div class="experience-work">with <a href="https://scholar.google.com/citations?user=jpgplxUAAAAJ&hl=en">Thomas A. Henzinger</a> and <a href="https://lnrdbrice.github.io/">Léonard Brice</a> on Games with Constraint Randomsisation</div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-title">Aix Marseille University, Marseille, France</div>
+            <div class="experience-subtitle">May 2025 -  July 2025</div>
+            <div class="experience-work">with <a href="https://lehtinenkaroliina.wordpress.com/">Karoliina Lehtinen</a> on Explorability in Pushdown Automata</div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-title">IIT Delhi, Delhi, India</div>
+            <div class="experience-subtitle">May 2024 -  July 2024</div>
+            <div class="experience-work">with <a href="https://sites.google.com/view/nikhilbalaji/home">Nikhil Balaji</a>  on Algebric Complexity Theory</div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-title">Krea University, Sricity, India</div>
+            <div class="experience-subtitle">May 2023 -  July 2023</div>
+            <div class="experience-work">with <a href="https://krea.edu.in/sias/dr-t-v-h-prathamesh/">T V H Prathamesh</a> on Formal Verification of Right Angled Artin Groups</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="container" style="display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap;">
+        <div>© <span id="year"></span> Ayaan Bedi</div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/ayaan-bedi-26b28b1ba/" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
